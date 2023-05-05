@@ -1,0 +1,27 @@
+create dotnet pro
+see list
+dotnet new -h
+solution 
+dotnet new sln
+web api
+dotnet new webapi -n {name}
+move sln in pro folder
+dotnet sln add {name}
+
+run project
+dotnet run
+dotnet watch run
+
+nuget
+ctrl+shift+p opne nuget
+
+SQlite
+dotnet tool install --global dotnet-ef --version 7.0.0-rc.2.22472.11
+dotnet ef migrations add InitialCreate -o Data/Migrations   (create table)
+dotnet ef database update (update table)
+
+call prop
+prop
+
+call constructor
+ctor

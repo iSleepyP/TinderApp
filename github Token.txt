@@ -1,0 +1,6 @@
+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
+
+git
+dotnet new gitignore
+
+dotnet new globaljson
