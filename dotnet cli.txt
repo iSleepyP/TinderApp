@@ -17,6 +17,7 @@ ctrl+shift+p opne nuget
 
 SQlite
 dotnet tool install --global dotnet-ef --version 7.0.0-rc.2.22472.11
+
 dotnet ef migrations add InitialCreate -o Data/Migrations   (create table)
 dotnet ef database update (update table)
 
