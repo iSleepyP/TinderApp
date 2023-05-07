@@ -15,6 +15,8 @@ namespace API.Extensions
             });
             services.AddCors(); //angular https api access
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IUserRepository, UserRespository>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             return services;
         }
